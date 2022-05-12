@@ -1,13 +1,3 @@
-
-function onhover(){
-    document.getElementById("hover").style.display="inline-block";
-    document.getElementById("hover2").style.display="inline-block";
-}
-function offhover(){
-    document.getElementById("hover").style.display="none";
-    document.getElementById("hover2").style.display="none";
-}   
-
 function validar(){
     let cpf = document.getElementById("cpf").value.replace(/\D+/g,'');
     let validacao = cpfValido(cpf);
@@ -17,15 +7,12 @@ function validar(){
         document.getElementById('header').style.background="green";
         document.getElementById('form').style.background="GreenYellow";
         document.getElementById('sucess').style.color="GreenYellow";
-        
-
     }else{
         document.getElementById('invalid').style.display="inline-block";
         document.getElementById('invalid').style.color="red";
         document.getElementById('sucess').style.display="none";
         document.getElementById('header').style.background="FireBrick";
-        document.getElementById('form').style.background="red";
-        
+        document.getElementById('form').style.background="red";  
     }
 
 }

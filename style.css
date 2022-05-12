@@ -39,25 +39,19 @@ input{
     width: 50vw;
 }
 button{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(3, 59, 97);
     border-radius: 1rem;
     border:none;
-    color:rgb(0, 92, 153);
     transition:1s;
+    padding:0.5rem;
     font-size: 1rem;
     font-weight: bolder;
     width:50vw;
 }
-button:active{
-    background-color: rgb(3, 59, 97);
-    color:rgb(255, 255, 255);
-}
 button:hover{
-    background-color: rgb(2, 29, 48);
-    color:rgb(255, 255, 255);
-    padding:1rem;
+    background-color: rgb(255, 255, 255);
+    color:rgb(2, 29, 48);
+    padding:0.5rem;
     font-size: 1.5rem;
 }
-button span{
-    display:none;
-}
+
