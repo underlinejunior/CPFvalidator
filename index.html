@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <div id="header">
+            <h1>VALIDADOR de CPF</h1>
+            <span id="invalid">CPF INVALIDO!</span>
+            <span id="sucess">CPF OK!</span>
+        </div>
+        <div id="form">
+            <form>
+                <span id="titleButton">CPF:
+                <input type="text" placeholder="Digite aqui o CPF..." id="cpf">
+                </span>
+                <p>Digite somente números.</p>
+                <br/>
+                <button type="button" id="button" onclick="validar()" onmouseover="onhover()" onmouseout="offhover()">
+                    <span id="hover">:.</span> VALIDAR <span id="hover2">.:</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
